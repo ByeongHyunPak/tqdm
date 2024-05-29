@@ -155,3 +155,7 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.monospace {
+  font-family: monospace;
+}

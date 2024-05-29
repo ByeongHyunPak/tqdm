@@ -99,13 +99,13 @@
               &nbsp;&nbsp;&nbsp;
             </span>
             <span class="author-block">
-              <a href="https://github.com/hoseong-kim">Hoseong Kim</a><sup>&dagger;</sup>
+              <a href="https://github.com/hoseong-kim">Hoseong Kim</a>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block">Agency for Defense Development (ADD)</span>
-            <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+            <span class="author-block">Agency for Defense Development (ADD)</span><br>
+            <span class="eql-cntrb"><small><sup>*</sup>Indicates Equal Contribution</small></span><br>
           </div>
 
           <div class="column has-text-centered">
@@ -174,16 +174,15 @@
                 type="video/mp4"> <!-- TODO: clip the intro. of this video-->
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        our <span class="monospace">tqdm</span> shows promising segmnetation results even under the extreme domain shifts.
+        (GTA5 → Unseen game videos)
       </h2>
     </div>
   </div>
 </section>
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -238,7 +237,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -249,31 +248,21 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            In this paper, we introduce a method to tackle Domain Generalized Semantic Segmentation (DGSS) 
+            by utilizing domain-invariant semantic knowledge from text embeddings of vision-language models. 
+            We employ the text embeddings as object queries within 
+            a transformer-based segmentation framework (textual object queries). 
+            These queries are regarded as a domain-invariant basis for pixel grouping in DGSS. 
+            To leverage the power of textual object queries, we introduce a novel framework named 
+            the textual query-driven mask transformer (<span class="monospace">tqdm</span>). 
+            Our <span class="monospace">tqdm</span> aims to (1) generate textual object queries 
+            that maximally encode domain-invariant semantics and (2) enhance the semantic clarity of dense visual features. 
+            Additionally, we suggest three regularization losses to improve the efficacy of <span class="monospace">tqdm</span>
+            by aligning between visual and textual features. 
+            By utilizing our method, the model can comprehend inherent semantic information for classes of interest, 
+            enabling it to generalize to extreme domains (e.g., sketch style). 
+            Our <span class="monospace">tqdm</span> achieves 68.9 mIoU on GTA5→Cityscapes, 
+            outperforming the prior state-of-the-art method by 2.5 mIoU.
           </p>
         </div>
       </div>
@@ -281,7 +270,7 @@
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -289,7 +278,7 @@
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
   </div>
 </section>
@@ -301,7 +290,7 @@
     <div class="columns is-centered">
 
       <!-- Visual Effects. -->
-      <div class="column">
+      <!-- <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
           <p>
@@ -313,11 +302,11 @@
                     type="video/mp4">
           </video>
         </div>
-      </div>
+      </div> -->
       <!--/ Visual Effects. -->
 
       <!-- Matting. -->
-      <div class="column">
+      <!-- <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
           <div class="column content">
@@ -333,16 +322,16 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Matting. -->
 
     <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+    <!-- <div class="columns is-centered"> -->
+      <!-- <div class="column is-full-width"> -->
+        <!-- <h2 class="title is-3">Animation</h2> -->
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -372,11 +361,11 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
+        <br/> -->
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
             Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
@@ -393,16 +382,16 @@
             <source src="./static/videos/replay.mp4"
                     type="video/mp4">
           </video>
-        </div>
+        </div> -->
         <!--/ Re-rendering. -->
 
-      </div>
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
     <!--/ Animation. -->
 
 
     <!-- Concurrent Work. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
@@ -425,7 +414,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Concurrent Work. -->
 
   </div>
@@ -447,7 +436,7 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
+    <!-- <div class="content has-text-centered">
       <a class="icon-link"
          href="./static/videos/nerfies_paper.pdf">
         <i class="fas fa-file-pdf"></i>
@@ -455,7 +444,7 @@
       <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
-    </div>
+    </div> -->
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
