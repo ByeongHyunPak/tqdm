@@ -2,15 +2,23 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.row {
+.columns {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
 }
 
 .column {
-  flex: 1;
-  margin: 10px;
+  padding: 0.75rem;
+}
+
+.is-full-width {
+  width: 100%;
+}
+
+.is-half {
+  width: 50%;
 }
 
 .footer .icon-link {
