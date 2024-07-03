@@ -180,7 +180,7 @@ body {
 .bal-container-small {
   position: relative;
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   cursor: grab;
   overflow: hidden;
 }
@@ -188,7 +188,7 @@ body {
 .bal-container-big {
   position: relative;
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   cursor: grab;
   overflow: hidden;
 }
