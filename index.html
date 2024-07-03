@@ -289,19 +289,31 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-
     <div class="columns is-centered">
 
       <div class="content">
         <h2 class="title is-3">Segmentation Results</h2>
-          <div class="img-comp-container">
-              <div class="img-comp-img">
-                  <img src="./static/images/img1.jpg" width="100%" height="100%">
+          <div id="example1" class="bal-container-small">
+            <div class="bal-after">
+              <img src="./static/images/img1.png">
+              <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                Ours
               </div>
-              <div class="img-comp-img img-comp-overlay">
-                  <img src="./static/images/img1.jpg" width="100%" height="100%">
+            </div>
+          
+            <div class="bal-before" style="width:91.07142857142857%;">
+              <div class="bal-before-inset" style="width: 597px;">
+                <img src="./static/images/img2.png">
+                <div class="bal-beforePosition beforeLabel">
+                  Rein [Wei 2023]
+                </div>
               </div>
-              <div class="img-comp-slider"></div>
+            </div>
+          
+            <div class="bal-handle" style="left:91.07142857142857%;">
+              <span class=" handle-left-arrow"></span>
+              <span class="handle-right-arrow"></span>
+            </div>
           </div>
       </div>
 
