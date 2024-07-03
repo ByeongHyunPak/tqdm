@@ -289,22 +289,44 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <div class="columns is-centered">
+    <h2 class="title is-3">Visual Comparisons</h2>
+    <div class="content has-text-justified">
+      <p>
 
-      <div class="content">
-        <h2 class="title is-3">Segmentation Results</h2>
+      </p>
+    </div>
+    <div class="columns is-centered">
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
           <div class="columns is-centered">
-              <div class="column is-full-width">
-                  <div id="example1" class="img-comp-container">
-                      <div class="img-comp-img">
-                          <img src="./static/images/img1.png" alt="Rein [Wei 2023]">
-                          <div class="img-comp-overlay">
-                              <img src="./static/images/img2.png" alt="Ours">
-                          </div>
-                      </div>
-                      <div class="img-comp-slider"></div>
+            <div class="column is-full-width">
+              <div id="example1" class="bal-container-small">
+      
+                <div class="bal-after">
+                  <img src="./static/images/img1.png">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
                   </div>
+                </div>
+              
+                <div class="bal-before">
+                  <div class="bal-before-inset">
+                    <img src="./static/images/img1.png">
+                    <div class="bal-beforePosition beforeLabel">
+                      Rein [Wei 2023]
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="bal-handle">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              
               </div>
+
+            </div>
           </div>
         </div>
       </div>
