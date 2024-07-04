@@ -130,21 +130,53 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/tqdm_supplementary_video.mp4"
+                type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Trained on GTA5, our <span class="monospace">tqdm</span> generalizes well to unseen game videos with extreme domain shifts.
+      </h2>
+    </div>
+  </div>
+</section> -->
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%" controls>
         <source src="./static/videos/tqdm_supplementary_video.mp4"
                 type="video/mp4"> <!-- TODO: clip the intro. of this video-->
       </video>
       <h2 class="subtitle has-text-centered">
         Trained on GTA5, our <span class="monospace">tqdm</span> generalizes well to unseen game videos with extreme domain shifts.
-        <!-- Our <span class="monospace">tqdm</span> shows promising segmnetation results even under the extreme domain shifts.
-        <br>(GTA5 → Unseen game videos) -->
       </h2>
     </div>
   </div>
 </section>
+
+<script>
+  const video = document.getElementById('teaser');
+  const timeline = document.getElementById('videoTimeline');
+
+  // Update the input range max value once video metadata is loaded
+  video.addEventListener('loadedmetadata', () => {
+    timeline.max = video.duration;
+  });
+
+  // Update video current time when the timeline is changed
+  timeline.addEventListener('input', () => {
+    video.currentTime = timeline.value;
+  });
+
+  // Update the timeline value as the video plays
+  video.addEventListener('timeupdate', () => {
+    timeline.value = video.currentTime;
+  });
+</script>
 
 
 <section class="section">
