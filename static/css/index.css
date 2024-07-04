@@ -7,6 +7,7 @@ body {
   flex-wrap: wrap;
   margin: -0.1rem;
   /* text-align: center; */
+  margin-bottom: -10px;
 }
 
 .column {
@@ -382,10 +383,9 @@ body {
 }
 
 .icon-image {
-  width: 16px; /* 또는 원하는 크기 */
-  height: auto;
   vertical-align: middle;
   margin-right: 4px; /* 텍스트와의 간격 */
+  width: 20px; height: 20px;
 }
 
 .center-align {
