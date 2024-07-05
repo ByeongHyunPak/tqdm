@@ -138,7 +138,7 @@
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Trained on GTA5, our <span class="monospace">tqdm</span> generalizes well to unseen game videos with extreme domain shifts.
+        Trained on GTA5, our <span class="monospace"><strong>tqdm</strong></span> generalizes well to unseen game videos with extreme domain shifts.
       </h2>
     </div>
   </div>
@@ -192,14 +192,14 @@
             a transformer-based segmentation framework (textual object queries). 
             These queries are regarded as a domain-invariant basis for pixel grouping in DGSS. 
             To leverage the power of textual object queries, we introduce a novel framework named 
-            the <strong>textual query-driven mask transformer</strong> (<span class="monospace">tqdm</span>). 
-            Our <span class="monospace">tqdm</span> aims to (1) generate textual object queries 
+            the <strong>textual query-driven mask transformer</strong> (<span class="monospace"><strong>tqdm</strong></span>). 
+            Our <span class="monospace"><strong>tqdm</strong></span> aims to (1) generate textual object queries 
             that maximally encode domain-invariant semantics and (2) enhance the semantic clarity of dense visual features. 
-            Additionally, we suggest three regularization losses to improve the efficacy of <span class="monospace">tqdm</span>
+            Additionally, we suggest three regularization losses to improve the efficacy of <span class="monospace"><strong>tqdm</strong></span>
             by aligning between visual and textual features. 
             By utilizing our method, the model can comprehend inherent semantic information for classes of interest, 
             enabling it to generalize to extreme domains (e.g., sketch style). 
-            Our <span class="monospace">tqdm</span> achieves 68.9 mIoU on GTA5→Cityscapes, 
+            Our <span class="monospace"><strong>tqdm</strong></span> achieves 68.9 mIoU on GTA5→Cityscapes, 
             outperforming the prior state-of-the-art method by 2.5 mIoU.
           </p>
         </div>
@@ -577,7 +577,7 @@
             <td>49.17</td>
           </tr>
           <tr style="background-color: #bbdcf9;">
-            <td class="center-align"><span class="monospace">tqdm</span> (ours) 📎</td>
+            <td class="center-align"><span class="monospace"><strong>tqdm</strong></span> (ours) 📎</td>
             <td class="center-align">ViT-B</td>
             <td><strong>57.50</strong></td>
             <td>47.66</td>
@@ -613,7 +613,7 @@
             <td>64.30</td>
           </tr>
           <tr style="background-color: #f8d9b1;">
-            <td class="center-align"><span class="monospace">tqdm</span> (ours) 
+            <td class="center-align"><span class="monospace"><strong>tqdm</strong></span> (ours) 
               <img src="static/images/emoji/eva_emoji.png" alt="Paper Clip" class="icon-image">
             </td>
             <td class="center-align">EVA02-L</td>
@@ -665,7 +665,7 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3" style="text-align: center;">Overall Pipeline of <span class="monospace">tqdm</span></h2>
+    <h2 class="title is-3" style="text-align: center;">Overall Pipeline of <span class="monospace"><strong>tqdm</strong></span></h2>
     <div class="columns is-centered">
       <!-- Visual Effects. -->
 
@@ -678,7 +678,7 @@
       </div>
       
       <h2 class="subtitle" style="text-align: left; width: 95%;">
-        <!-- <strong>Overall pipeline of our <span class="monospace">tqdm</span></strong><br><br> -->
+        <!-- <strong>Overall pipeline of our <span class="monospace"><strong>tqdm</strong></span></strong><br><br> -->
         <strong>Step 1.</strong> We generate initial textual object queries \( \textbf{q}^0_\textbf{t} \) from the \( K \) class text embeddings \( \{\textbf{t}_k\}_{k=1}^K \).<br><br>
         <strong>Step 2.</strong> To improve the segmentation capabilities of these queries, we incorporate text-to-pixel attention within the pixel decoder. 
         This process enhances the semantic clarity of pixel features, while reconstructing high-resolution per-pixel embeddings \( \textbf{Z} \).<br><br>
