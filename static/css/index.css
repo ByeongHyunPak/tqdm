@@ -182,7 +182,8 @@ body {
 }
 
 .monospace {
-  font-family: "Courier New", Courier, "Lucida Console", "Liberation Mono", monospace;
+  /* font-family: "Courier New", "Courier", "Lucida Console", "Liberation Mono", "monospace"; */
+  font-family: "Courier";
 }
 
 .harmonization {
