@@ -175,7 +175,7 @@
   });
 </script>
 
-<section class="section">
+<section class="section" style="background-color:ghostwhite;">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
@@ -523,7 +523,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section" >
   <div class="container is-max-desktop">
     <h2 class="title is-3" style="text-align: center;">Comparison with DGSS methods</h2>
     <div class="columns is-centered">
@@ -536,96 +536,11 @@
           </div>
         </div>
       </div>
-
-      <!-- <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth" style="width: 100%;">
-        <thead>
-          <tr>
-            <th rowspan="1" class="center-align" style="vertical-align: middle;">Method</th>
-            <th rowspan="1" class="center-align" style="vertical-align: middle;">Backbone</th>
-            <th>G→C</th>
-            <th>G→B</th>
-            <th>G→M</th>
-            <th>Avg.</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="background-color: #f0f8ff;">
-            <td class="center-align">SHADE [Zhao 2023]</td>
-            <td class="center-align">MiT-B5</td>
-            <td>53.27</td>
-            <td>48.19</td>
-            <td>54.99</td>
-            <td>52.15</td>
-          </tr>
-          <tr style="background-color: #f0f8ff;">
-            <td class="center-align">IBAFormer [Sun 2023]</td>
-            <td class="center-align">MiT-B5</td>
-            <td><u>56.34</u></td>
-            <td><strong>49.76</strong></td>
-            <td><u>58.26</u></td>
-            <td><u>54.79</u></td>
-          </tr>
-          <tr style="background-color: #f0f8ff;">
-            <td class="center-align">VLTSeg [Hümmer 2023] 📎</td>
-            <td class="center-align">ViT-B</td>
-            <td>47.50</td>
-            <td>45.70</td>
-            <td>54.30</td>
-            <td>49.17</td>
-          </tr>
-          <tr style="background-color: #bbdcf9;">
-            <td class="center-align"><span class="monospace"><strong>tqdm</strong></span> (ours) 📎</td>
-            <td class="center-align">ViT-B</td>
-            <td><strong>57.50</strong></td>
-            <td>47.66</td>
-            <td><strong>59.76</strong></td>
-            <td><strong>54.97</strong></td>
-          </tr>
-          <tr style="background-color: #faebd7;">
-            <td class="center-align">VLTSeg [Hümmer 2023] 📎</td>
-            <td class="center-align">EVA02-L</td>
-            <td>65.60</td>
-            <td>58.40</td>
-            <td><u>66.50</u></td>
-            <td>63.50</td>
-          </tr>
-          <tr style="background-color: #faebd7;">
-            <td class="center-align">Rein [Wei 2024] 
-              <img src="static/images/emoji/eva_emoji.png" alt="Paper Clip" class="icon-image">
-            </td>
-            <td class="center-align">EVA02-L</td>
-            <td>65.30</td>
-            <td><strong>60.50</strong></td>
-            <td>64.90</td>
-            <td>63.60</td>
-          </tr>
-          <tr style="background-color: #faebd7;">
-            <td class="center-align">Rein [Wei 2024] 
-              <img src="static/images/emoji/dino_emoji.png" alt="Paper Clip" class="icon-image">
-            </td>
-            <td class="center-align">ViT-L</td>
-            <td><u>66.40</u></td>
-            <td>60.40</td>
-            <td>66.10</td>
-            <td>64.30</td>
-          </tr>
-          <tr style="background-color: #f8d9b1;">
-            <td class="center-align"><span class="monospace"><strong>tqdm</strong></span> (ours) 
-              <img src="static/images/emoji/eva_emoji.png" alt="Paper Clip" class="icon-image">
-            </td>
-            <td class="center-align">EVA02-L</td>
-            <td><strong>68.88</strong></td>
-            <td>59.18</td>
-            <td><strong>70.10</strong></td>
-            <td><strong>66.05</td>
-          </tr>
-        </tbody>
-      </table> -->
       
-      <h2 class="subtitle" style="text-align: justify; width: 80%; margin-bottom: 5pt;">
-        <img src="static/images/emoji/clip_emoji.png" alt="Paper Clip" class="icon-image" style="width: 20px; height: 20px;">,
-        <img src="static/images/emoji/eva_emoji.png" alt="Paper Clip" class="icon-image" style="width: 20px; height: 20px;">, and
-        <img src="static/images/emoji/dino_emoji.png" alt="Paper Clip" class="icon-image" style="width: 20px; height: 20px;">
+      <h2 class="subtitle" style="text-align: justify; width: 80%; margin-bottom: 5pt; font-size: 12pt;">
+        <img src="static/images/emoji/clip_emoji.png" alt="Paper Clip" class="icon-image" style="width: 17px; height: 17px;">,
+        <img src="static/images/emoji/eva_emoji.png" alt="Paper Clip" class="icon-image" style="width: 17px; height: 17px;">, and
+        <img src="static/images/emoji/dino_emoji.png" alt="Paper Clip" class="icon-image" style="width: 17px; height: 17px;">
         denote initialization with CLIP, EVA02-CLIP, and DINOv2 pre-training, respectively.
         The best and second-best results are <strong>highlighted</strong> and <u>underlined</u>, correspondingly. 
         The results denoted with † are both trained and tested
@@ -650,7 +565,7 @@
         </div>
       </div>
       
-      <h2 class="subtitle" style="text-align: justify; width: 90%;">
+      <h2 class="subtitle" style="text-align: justify; width: 90%; font-size: 12pt;">
         The text embeddings of the targeted classes (<I>i.e.</I>, building, bicycle, and traffic sign) from pre-trained vision-language models (<I>e.g.</I>, CLIP)
         consistently show strong activation in the corresponding regions of images across various domains. 
         We leverage this domain-invariant semantic knowledge from the text embeddings of vision-language models.
@@ -668,13 +583,13 @@
 
       <div>
         <div class="columns is-centered" style="margin-bottom: 20pt;">
-          <div id="input-example1" class="image-container" style="width: 95%;">
+          <div id="input-example1" class="image-container" style="width: 90%;">
             <img src="./static/images/overall-pipeline.png">
           </div>
         </div>
       </div>
       
-      <h2 class="subtitle" style="text-align: left; width: 95%;">
+      <h2 class="subtitle" style="text-align: left; width: 85%; font-size: 12pt;">
         <!-- <strong>Overall pipeline of our <span class="monospace"><strong>tqdm</strong></span></strong><br><br> -->
         <strong>Step 1.</strong> We generate initial textual object queries \( \textbf{q}^0_\textbf{t} \) from the \( K \) class text embeddings \( \{\textbf{t}_k\}_{k=1}^K \).<br><br>
         <strong>Step 2.</strong> To improve the segmentation capabilities of these queries, we incorporate text-to-pixel attention within the pixel decoder. 
