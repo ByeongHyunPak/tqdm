@@ -19,7 +19,7 @@ This repository is the official pytorch implementation of **tqdm** introduced by
   | EVA02-CLIP | `EVA02_CLIP_L_336_psz14_s6B` |[official repo](https://github.com/baaivision/EVA/tree/master/EVA-CLIP#eva-02-clip-series)|
 
 ### Checkpoints
-- You can download **tqdm** model checkpoints.
+- You can download **tqdm** model checkpoints:
 
   | model | link |
   |-----|:-----:|
