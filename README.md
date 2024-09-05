@@ -32,8 +32,8 @@ This repository is the official pytorch implementation of **tqdm** introduced by
 - After downloading the datasets, edit the data folder root in [the dataset config files]() following your environment.
   
   ```python
-  src_dataset_dict = dict(..., data_root='[YOUR DATA FOLDER ROOT]', ...)
-  tgt_dataset_dict = dict(..., data_root='[YOUR DATA FOLDER ROOT]', ...)
+  src_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
+  tgt_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
   ```
 ## Train
  ```
