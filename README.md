@@ -8,6 +8,7 @@ This repository is the official pytorch implementation of **tqdm** introduced by
   
   ```
   pip install -r requirements.txt
+  pip install mmcv-full==1.5.3 
   ```
 ### Pre-trained VLM Models
 - Please download the pre-trained CLIP and EVA02-CLIP and save them in `./pretrained` folder.
