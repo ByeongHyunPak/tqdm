@@ -25,11 +25,11 @@ This repository is the official pytorch implementation of **tqdm** introduced by
 ### Checkpoints
 - You can download **tqdm** model checkpoints:
 
-  | model | link |
-  |-----|:-----:|
-  | `tqdm-clip-vit-b-gta` |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-gta` |[download link](https://drive.google.com/file/d/1GHR0R5A06oPlRsM1XRu1zmFUJa2_WOSi/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-city` |[download link](https://drive.google.com/file/d/13taMQNPWIP4yrzUsWvXBG7LMY5lsbOp-/view?usp=drive_link)|
+  | model | config | link |
+  |-----|-----|:-----:|
+  | `tqdm-clip-vit-b-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
+  | `tqdm-eva02-clip-vit-l-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1GHR0R5A06oPlRsM1XRu1zmFUJa2_WOSi/view?usp=drive_link)|
+  | `tqdm-eva02-clip-vit-l-city` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-4_20k-c2b-512.py) |[download link](https://drive.google.com/file/d/13taMQNPWIP4yrzUsWvXBG7LMY5lsbOp-/view?usp=drive_link)|
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
