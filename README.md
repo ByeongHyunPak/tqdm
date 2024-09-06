@@ -7,6 +7,8 @@ This repository is the official pytorch implementation of **tqdm** introduced by
 - The requirements can be installed with:
   
   ```
+  conda create -n tqdm python=3.9
+  conda activate tqdm
   pip install -r requirements.txt
   pip install xformers==0.0.20
   pip install mmcv-full==1.5.3 
