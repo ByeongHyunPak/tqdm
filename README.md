@@ -7,9 +7,10 @@ This repository is the official pytorch implementation of **tqdm** introduced by
 - The requirements can be installed with:
   
   ```
-  conda create -n tqdm python=3.9
+  conda create -n tqdm python=3.9 numpy=1.26.4
   conda activate tqdm
   pip install -r requirements.txt
+  conda install pytorch==2.0.1 torchvision==0.15.2 pytorch-cuda=11.8 -c pytorch -c nvidia
   pip install xformers==0.0.20
   pip install mmcv-full==1.5.3 
   ```
@@ -53,12 +54,12 @@ bash dist_test.sh configs/[TEST_CONFIG] work_dirs/[MODEL] [NUM_GPUs] --eval mIoU
   - `[NUM_GPUs]`: the number of the GPUs
  
 ## The Most Relevant Files
-- [configs/tqdm/*]() - Config files for the final tqdm
-- [models/segmentors/*]() - Overall tqdm framework
-- [mmseg/models/utils/assigner.py]() - Implementation of fixed matching
-- [mmseg/models/decode_heads/tqdm_head.py]() - Our textual object query-based segmentation head
-- [mmseg/models/plugins/tqdm_msdeformattn_pixel_decoder.py]() - Our pixel decoder with *text-to-pixel attention*
-
+- [configs/tqdm/*](https://github.com/ByeongHyunPak/tqdm/tree/main/configs/tqdm) - Config files for the final tqdm
+- [models/segmentors/*](https://github.com/ByeongHyunPak/tqdm/tree/main/models/segmentors) - Overall tqdm framework
+- [mmseg/models/utils/assigner.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/utils/assigner.py#L168) - Implementation of fixed matching
+- [mmseg/models/decode_heads/tqdm_head.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/decode_heads/tqdm_head.py) - Our textual object query-based segmentation head
+- [mmseg/models/plugins/tqdm_msdeformattn_pixel_decoder.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/plugins/tqdm_msdeformattn_pixel_decoder.py) - Our pixel decoder with *text-to-pixel attention*
+x
 ## Acknowledgements
 This project is based on the following open-source projects.
 We thank the authors for sharing their codes.
