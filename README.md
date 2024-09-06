@@ -24,8 +24,8 @@ This repository is the official pytorch implementation of **tqdm** introduced by
   | model | link |
   |-----|:-----:|
   | `tqdm-clip-vit-b-gta` |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-gta` |[download link](https://drive.google.com/file/d/13taMQNPWIP4yrzUsWvXBG7LMY5lsbOp-/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-city` |[download link](https://drive.google.com/file/d/1GHR0R5A06oPlRsM1XRu1zmFUJa2_WOSi/view?usp=drive_link)|
+  | `tqdm-eva02-clip-vit-l-gta` |[download link](https://drive.google.com/file/d/1GHR0R5A06oPlRsM1XRu1zmFUJa2_WOSi/view?usp=drive_link)|
+  | `tqdm-eva02-clip-vit-l-city` |[download link](https://drive.google.com/file/d/13taMQNPWIP4yrzUsWvXBG7LMY5lsbOp-/view?usp=drive_link)|
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
