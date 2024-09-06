@@ -8,6 +8,7 @@ This repository is the official pytorch implementation of **tqdm** introduced by
   
   ```
   pip install -r requirements.txt
+  pip install xformers==0.0.20
   pip install mmcv-full==1.5.3 
   ```
 ### Pre-trained VLM Models
