@@ -32,7 +32,7 @@ This repository is the official pytorch implementation of **tqdm** introduced by
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
-- After downloading the datasets, edit the data folder root in [the dataset config files]() following your environment.
+- After downloading the datasets, edit the data folder root in [the dataset config files](https://github.com/ByeongHyunPak/tqdm/tree/main/configs/_base_/datasets) following your environment.
   
   ```python
   src_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
