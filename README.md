@@ -1,9 +1,13 @@
-# tqdm
-This repository is the official pytorch implementation of **tqdm** introduced by:
-#### [**Textual Query-Driven Mask Transformer for Domain Generalized Segmentation (ECCV 2024)**](https://arxiv.org/abs/2407.09033)
-\
+# [ECCV 2024] Textual Query-Driven Mask Transformer for Domain Generalized Segmentation
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta5-to-cityscapes)](https://paperswithcode.com/sota/domain-generalization-on-gta5-to-cityscapes?p=textual-query-driven-mask-transformer-for) <br />
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta-to-avg)](https://paperswithcode.com/sota/domain-generalization-on-gta-to-avg?p=textual-query-driven-mask-transformer-for) <br />
+### [**Textual Query-Driven Mask Transformer for Domain Generalized Segmentation**](https://arxiv.org/abs/2407.09033)
+>[Byeonghyun Pak](https://sohyun-l.github.io)\*, [Byeongju Woo](https://byeongjuwoo.github.io/)\*, [Sunghwan Kim](https://sunghwan.me/)\*, [Dae-hwan Kim](https://scholar.google.com/citations?hl=en&user=_5Scn8YAAAAJ), [Hoseong Kim](https://scholar.google.com/citations?hl=en&user=Zy7Sz5UAAAAJ)†\
+>Agency for Defense Development\
+>ECCV 2024
+
+#### [[`Project Page`](https://byeonghyunpak.github.io/tqdm/)] [[`Paper`](https://arxiv.org/abs/2407.09033)]
+
 ## Environment
 ### Requirements
 - The requirements can be installed with:
