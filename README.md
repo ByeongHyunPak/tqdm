@@ -1,7 +1,9 @@
 # tqdm
 This repository is the official pytorch implementation of **tqdm** introduced by:
-### [**Textual Query-Driven Mask Transformer for Domain Generalized Segmentation (ECCV 2024)**](https://arxiv.org/abs/2407.09033)
-
+#### [**Textual Query-Driven Mask Transformer for Domain Generalized Segmentation (ECCV 2024)**](https://arxiv.org/abs/2407.09033)
+\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta5-to-cityscapes)](https://paperswithcode.com/sota/domain-generalization-on-gta5-to-cityscapes?p=textual-query-driven-mask-transformer-for) <br />
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/textual-query-driven-mask-transformer-for/domain-generalization-on-gta-to-avg)](https://paperswithcode.com/sota/domain-generalization-on-gta-to-avg?p=textual-query-driven-mask-transformer-for) <br />
 ## Environment
 ### Requirements
 - The requirements can be installed with:
