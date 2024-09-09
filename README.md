@@ -12,7 +12,7 @@
 ### Requirements
 - The requirements can be installed with:
   
-  ```
+  ```bash
   conda create -n tqdm python=3.9 numpy=1.26.4
   conda activate tqdm
   conda install pytorch==2.0.1 torchvision==0.15.2 pytorch-cuda=11.8 -c pytorch -c nvidia
@@ -31,7 +31,7 @@
 ### Checkpoints
 - You can download **tqdm** model checkpoints:
 
-  | model | config | link |
+  | Model | Config | Link |
   |-----|-----|:-----:|
   | `tqdm-clip-vit-b-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
   | `tqdm-eva02-clip-vit-l-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1GHR0R5A06oPlRsM1XRu1zmFUJa2_WOSi/view?usp=drive_link)|
@@ -65,6 +65,18 @@ bash dist_test.sh configs/[TEST_CONFIG] work_dirs/[MODEL] [NUM_GPUs] --eval mIoU
 - [mmseg/models/utils/assigner.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/utils/assigner.py#L168) - Implementation of fixed matching
 - [mmseg/models/decode_heads/tqdm_head.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/decode_heads/tqdm_head.py) - Our textual object query-based segmentation head
 - [mmseg/models/plugins/tqdm_msdeformattn_pixel_decoder.py](https://github.com/ByeongHyunPak/tqdm/blob/main/mmseg/models/plugins/tqdm_msdeformattn_pixel_decoder.py) - Our pixel decoder with *text-to-pixel attention*
+
+## Citation
+If you find our code or data helpful, please cite our paper:
+```bibtex
+@inproceedings{pak2024textual,
+  title={Textual Query-Driven Mask Transformer for Domain Generalized Segmentation},
+  author={Pak, Byeonghyun and Woo, Byeongju and Kim, Sunghwan and Kim, Dae-hwan and Kim, Hoseong},
+  booktitle={European conference on computer vision},
+  year={2024},
+  organization={Springer}
+}
+```
 
 ## Acknowledgements
 This project is based on the following open-source projects.
