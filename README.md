@@ -70,11 +70,11 @@ bash dist_test.sh configs/[TEST_CONFIG] work_dirs/[MODEL] [NUM_GPUs] --eval mIoU
 If you find our code helpful, please cite our paper:
 ```bibtex
 @inproceedings{pak2024textual,
-  title={Textual Query-Driven Mask Transformer for Domain Generalized Segmentation},
-  author={Pak, Byeonghyun and Woo, Byeongju and Kim, Sunghwan and Kim, Dae-hwan and Kim, Hoseong},
-  booktitle={European conference on computer vision},
-  year={2024},
-  organization={Springer}
+  title         = {Textual Query-Driven Mask Transformer for Domain Generalized Segmentation},
+  author        = {Pak, Byeonghyun and Woo, Byeongju and Kim, Sunghwan and Kim, Dae-hwan and Kim, Hoseong},
+  booktitle     = {European conference on computer vision},
+  year          = {2024},
+  organization  = {Springer}
 }
 ```
 
