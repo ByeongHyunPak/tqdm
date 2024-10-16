@@ -31,11 +31,11 @@
 ### Checkpoints
 - You can download **tqdm** model checkpoints:
 
-  | Model | Config | Link |
-  |-----|-----|:-----:|
-  | `tqdm-clip-vit-b-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-gta` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1GHR0R5A06oPlRsM1XRu1zmFUJa2_WOSi/view?usp=drive_link)|
-  | `tqdm-eva02-clip-vit-l-city` | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-4_20k-c2b-512.py) |[download link](https://drive.google.com/file/d/13taMQNPWIP4yrzUsWvXBG7LMY5lsbOp-/view?usp=drive_link)|
+  | Model | Trained on | Config | Link |
+  |-----|-----|-----|:-----:|
+  | `tqdm-clip-vit-b-gta` | GTA5 | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
+  | `tqdm-eva02-clip-vit-l-gta`  | GTA5 | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1niKdUcoeP9Gd4F2O0LikTHBg39xHO8j0/view?usp=drive_link)|
+  | `tqdm-eva02-clip-vit-l-city` | Cityscapes | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-4_20k-c2b-512.py) |[download link](https://drive.google.com/file/d/1_FXNthSshuvGraEX-2JxQWsGvtpeG9A7/view?usp=drive_link)|
 
 ## Datasets
 - To set up datasets, please follow [the official **TLDR** repo](https://github.com/ssssshwan/TLDR/tree/main?tab=readme-ov-file#setup-datasets).
