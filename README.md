@@ -33,7 +33,7 @@
 
   | Model | Pretrained | Trained on | Config | Link |
   |-----|-----|-----|-----|:-----:|
-  | `tqdm-clip-vit-b-gta` | CLIP | GTA5 | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1PAnjxDUQ1nrUkDne1jflz_2BJQgtoqmZ/view?usp=drive_link)|
+  | `tqdm-clip-vit-b-gta` | CLIP | GTA5 | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_clip_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1oKTIuPoXTJyOqqof1yqtb10m41nVkreM/view?usp=drive_link)|
   | `tqdm-eva02-clip-vit-l-gta` | EVA02-CLIP | GTA5 | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-5_20k-g2c-512.py) |[download link](https://drive.google.com/file/d/1niKdUcoeP9Gd4F2O0LikTHBg39xHO8j0/view?usp=drive_link)|
   | `tqdm-eva02-clip-vit-l-city` | EVA02-CLIP | Cityscapes | [config](https://github.com/ByeongHyunPak/tqdm/blob/main/configs/tqdm/tqdm_eva_vit-l_1e-4_20k-c2b-512.py) |[download link](https://drive.google.com/file/d/1_FXNthSshuvGraEX-2JxQWsGvtpeG9A7/view?usp=drive_link)|
 
