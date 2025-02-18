@@ -49,15 +49,19 @@
  ```
  bash dist_train.sh configs/[TRAIN_CONFIG] [NUM_GPUs]
 ```
-  - `[TRAIN_CONFIG]`: train configuration (e.g., `tqdm/tqdm_eve_vit-l_1e-5_20k-g2c-512.py`)
-  - `[NUM_GPUs]`: the number of the GPUs
+  - `[TRAIN_CONFIG]`: Train configuration file (e.g., `tqdm/tqdm_eve_vit-l_1e-5_20k-g2c-512.py`)
+  - `[NUM_GPUs]`: Number of GPUs used for training
 ## Test
+To enable multi-scale flip augmentation during testing, use the `--aug-test` option.
+
+**Note:** The experiment results in our main paper were obtained **without** multi-scale flip augmentation.
+
 ```
 bash dist_test.sh configs/[TEST_CONFIG] work_dirs/[MODEL] [NUM_GPUs] --eval mIoU
 ```
-  - `[TRAIN_CONFIG]`: test configuration (e.g., `tqdm/tqdm_eve_vit-l_1e-5_20k-g2b-512.py`)
-  - `[MODEL]`: model checkpoint (e.g., `tqdm_eve_vit-l_1e-5_20k-g2c-512/epoch_last.pth`)
-  - `[NUM_GPUs]`: the number of the GPUs
+  - `[TRAIN_CONFIG]`: Test configuration file (e.g., `tqdm/tqdm_eve_vit-l_1e-5_20k-g2b-512.py`)
+  - `[MODEL]`: Model checkpoint (e.g., `tqdm_eve_vit-l_1e-5_20k-g2c-512/epoch_last.pth`)
+  - `[NUM_GPUs]`: Number of GPUs used for testing
  
 ## The Most Relevant Files
 - [configs/tqdm/*](https://github.com/ByeongHyunPak/tqdm/tree/main/configs/tqdm) - Config files for the final tqdm
